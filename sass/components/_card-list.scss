@@ -1,0 +1,7 @@
+.card-list {
+  @extend %list;
+  display: flex;
+  .card-list__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}

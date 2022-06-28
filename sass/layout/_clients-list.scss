@@ -1,0 +1,9 @@
+.clients__title {
+  @include section-title(50px);
+}
+.clients__list {
+  justify-content: space-around;
+}
+.clients__item {
+  width: calc((100% / 6) - 30px);
+}

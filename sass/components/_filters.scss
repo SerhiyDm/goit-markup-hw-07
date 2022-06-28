@@ -1,0 +1,10 @@
+.filter-list {
+  @extend %list;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .filter-list__item:not(:last-child) {
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,18 @@
+body {
+  font-family: var(--main-font-family), var(--secondary-font-family), 'sans-serif';
+  background-color: var(--background-color);
+  color: var(--paragraph-color);
+}
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
+a:hover,
+a:focus {
+  color: var(--accent-color);
+}
+.no-scroll {
+  overflow: hidden;
+}

@@ -1,0 +1,25 @@
+.rectangle-transparent-link {
+  transition: background-color var(--transition-duration) var(--transition-timing-function),
+    fill var(--transition-duration) var(--transition-timing-function);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 16px 32px;
+  outline: transparent;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+}
+.rectangle-transparent-link__icon {
+  fill: #afb1b8;
+  .rectangle-transparent-link:hover &,
+  .rectangle-transparent-link:focus & {
+    fill: var(--accent-color);
+  }
+}

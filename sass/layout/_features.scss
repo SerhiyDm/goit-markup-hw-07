@@ -1,0 +1,23 @@
+.features__item {
+  width: calc((100% / 3) - 30px);
+}
+.features__description-title {
+  @include description-title(var(--title-color));
+  margin-bottom: 10px;
+}
+.features__description-text {
+  @include text(400, 14px, calc(24 / 14), 0.03em, var(--paragraph-color));
+}
+.features__background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120px;
+  margin-bottom: 30px;
+
+  background-color: #f5f4fa;
+}
+.features__icon {
+  width: 70px;
+  height: 70px;
+}
