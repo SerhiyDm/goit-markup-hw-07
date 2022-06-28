@@ -4,15 +4,17 @@
     margin-bottom: 9px;
   }
 }
-  .address-list__link--gray {
-    @include address-link(rgba(255, 255, 255, 0.6));
-    &:hover, &:focus {
-      color: var(--accent-color);
-    }
+.address-list__link--gray {
+  @include address-link(rgba(255, 255, 255, 0.6));
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
   }
-  .address-list__link--white {
-    @include address-link(#ffffff);
-     &:hover, &:focus {
-      color: var(--accent-color);
-    }
+}
+.address-list__link--white {
+  @include address-link(#ffffff);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
   }
+}

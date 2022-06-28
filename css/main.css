@@ -314,20 +314,6 @@ a:focus {
   border-color: var(--accent-color);
   outline: none;
 }
-.user-comment-text::-moz-placeholder {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.1666666667;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-.user-comment-text:-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.1666666667;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
 .user-comment-text::placeholder {
   font-weight: 400;
   font-size: 12px;
@@ -420,8 +406,7 @@ a:focus {
 
 .form__terms-link {
   color: var(--accent-color);
-  -webkit-text-decoration: underline var(--accent-color);
-          text-decoration: underline var(--accent-color);
+  text-decoration: underline var(--accent-color);
 }
 
 .form__button {
@@ -683,12 +668,6 @@ a:focus {
   transform: translateY(-50%);
   transition: transform var(--transition-duration) var(--transition-timing-function);
   cursor: pointer;
-}
-.page-footer__subscription-field:not(:-moz-placeholder-shown) + .page-footer__subscription-label {
-  transform: translateY(-205%);
-}
-.page-footer__subscription-field:not(:-ms-input-placeholder) + .page-footer__subscription-label {
-  transform: translateY(-205%);
 }
 .page-footer__subscription-field:not(:placeholder-shown) + .page-footer__subscription-label {
   transform: translateY(-205%);
