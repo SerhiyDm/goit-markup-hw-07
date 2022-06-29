@@ -4,11 +4,8 @@
     @include section-title(50px);
   }
   .profile__item {
-    width: calc((100% / 3) - 30px);
-  }
-  .profile__image-wrap {
+    width: 370px;
     position: relative;
-    width: 105%;
   }
   .profile__image-overlay {
     @include description-title(#ffffff);
