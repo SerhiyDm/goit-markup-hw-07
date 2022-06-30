@@ -1,9 +1,6 @@
-.portfolio__card-list {
+.card-list.portfolio__card-list {
   flex-wrap: wrap;
 }
 .portfolio__item {
   width: calc((100% / 3) - 30px);
-  &:not(:nth-child(-n + 3)) {
-    margin-top: 30px;
-  }
 }

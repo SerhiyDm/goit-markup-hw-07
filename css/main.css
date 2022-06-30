@@ -240,9 +240,10 @@ a:focus {
 
 .card-list {
   display: flex;
+  margin: -15px;
 }
-.card-list .card-list__item:not(:last-child) {
-  margin-right: 30px;
+.card-list .card-list__item {
+  margin: 15px;
 }
 
 .rectangle-transparent-link {
@@ -875,13 +876,10 @@ a:focus {
   min-height: 92px;
 }
 
-.portfolio__card-list {
+.card-list.portfolio__card-list {
   flex-wrap: wrap;
 }
 
 .portfolio__item {
   width: calc(33.3333333333% - 30px);
-}
-.portfolio__item:not(:nth-child(-n+3)) {
-  margin-top: 30px;
 }/*# sourceMappingURL=main.css.map */
