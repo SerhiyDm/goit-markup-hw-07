@@ -27,6 +27,7 @@
 }
 .form__input {
   @include border-background(rgba(33, 33, 33, 0.2));
+  transition: border-color var(--transition-duration) var(--transition-timing-function);
   padding-left: 42px;
   width: 100%;
   height: 40px;

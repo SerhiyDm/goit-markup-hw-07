@@ -5,6 +5,8 @@
   cursor: pointer;
 }
 .checkbox-custom__icon {
+  transition: border-color var(--transition-duration) var(--transition-timing-function);
+  transition: background-color var(--transition-duration) var(--transition-timing-function);
   display: block;
   margin-right: 8.38px;
   width: 16px;
