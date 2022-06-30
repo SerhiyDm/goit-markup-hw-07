@@ -25,7 +25,7 @@
   }
 }
 .hero__open-button {
-  transition: box-shadow 250ms;
+  transition: box-shadow 250ms linear;
   min-width: 200px;
   padding: 10px 32px;
   &:hover {
