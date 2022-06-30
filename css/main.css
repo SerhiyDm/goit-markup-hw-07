@@ -51,7 +51,7 @@ a:focus {
   overflow: hidden;
 }
 
-.page-header__list, .filter-list, .address-list, .card-list, .menu, .social-links-list {
+.page-header__list, .filter-list, .address-list, .card-list, .nav-menu, .social-links-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -227,13 +227,13 @@ a:focus {
   fill: #ffffff;
 }
 
-.menu {
+.nav-menu {
   display: flex;
 }
-.menu .menu__item:not(:last-child) {
+.nav-menu .nav-menu__item:not(:last-child) {
   margin-right: 50px;
 }
-.menu .menu__link {
+.nav-menu .nav-menu__link {
   display: block;
   text-decoration: none;
 }
